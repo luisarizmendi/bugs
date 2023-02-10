@@ -1,0 +1,17 @@
+[root@localhost ~]# coredumpctl dump
+           PID: 1825 (rpm-ostree)
+           UID: 0 (root)
+           GID: 0 (root)
+        Signal: 11 (SEGV)
+     Timestamp: Fri 2023-02-10 10:08:18 UTC (4min 11s ago)
+  Command Line: /usr/bin/rpm-ostree start-daemon
+    Executable: /usr/bin/rpm-ostree
+ Control Group: /system.slice/rpm-ostreed.service
+          Unit: rpm-ostreed.service
+         Slice: system.slice
+       Boot ID: e9c88004b75c4d09b67df9cb5e5d600e
+    Machine ID: bc2b20518a0c438897314691000e8928
+      Hostname: localhost.localdomain
+       Storage: none
+       Message: Process 1825 (rpm-ostree) of user 0 dumped core.
+Coredump entry has no core attached (neither internally in the journal nor externally on disk).

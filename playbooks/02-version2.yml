@@ -1,0 +1,37 @@
+---
+- name: "DEMO: OSTree upgrade - System preparation"
+  hosts: image_builder
+  gather_facts: true
+  vars_files:
+  - ../vars/main.yml
+  tasks:
+
+  
+
+        - name: Set fact
+          ansible.builtin.set_fact:
+            builder_blueprint_name: demo_upgrade
+
+
+        # Create image v3 NOT UPDATING THE REPO
+        - become: true
+          ansible.builtin.import_role:
+            name: infra.osbuild.builder
+          vars:
+            builder_kickstart: "{{ playbook_dir }}/../templates/kickstart_demo-upgrade.j2"
+            builder_compose_type: edge-commit
+            builder_pub_key: "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
+            builder_compose_customizations:
+              user:
+                name: "admin"
+                description: "Admin user"
+                password: "R3dh4t1!"
+                key: "{{ builder_pub_key }}"
+                groups: '["users", "wheel"]'
+            builder_compose_pkgs:
+              - "fuse-overlayfs"
+              - "setroubleshoot-server"
+              - "slirp4netns"
+              - "net-tools"
+              - "git"
+              - "zsh"

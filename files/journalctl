@@ -1,0 +1,138 @@
+Feb 10 09:55:24 localhost.localdomain rpm-ostree[1622]: 1 metadata, 0 content objects fetched; 196 B transferred in 0 seconds; 0 bytes content written
+Feb 10 09:55:24 localhost.localdomain rpm-ostree[1622]: Txn AutomaticUpdateTrigger on /org/projectatomic/rpmostree1/rhel successful
+Feb 10 09:55:24 localhost.localdomain rpm-ostree[1622]: Unlocked sysroot
+Feb 10 09:55:24 localhost.localdomain rpm-ostree[1622]: Process [pid: 1618 uid: 0 unit: session-2.scope] disconnected from transaction progress
+Feb 10 09:55:24 localhost.localdomain rpm-ostree[1622]: client(id:cli dbus:1.60 unit:session-2.scope uid:0) vanished; remaining=0
+Feb 10 09:55:24 localhost.localdomain rpm-ostree[1622]: In idle state; will auto-exit in 60 seconds
+Feb 10 09:55:26 localhost.localdomain rpm-ostree[1622]: client(id:cli dbus:1.61 unit:session-2.scope uid:0) added; new total=1
+Feb 10 09:55:26 localhost.localdomain rpm-ostree[1622]: Locked sysroot
+Feb 10 09:55:26 localhost.localdomain rpm-ostree[1622]: Initiated txn AutomaticUpdateTrigger for client(id:cli dbus:1.61 unit:session-2.scope uid:0): /org/projectatomic/rpmostree1/rhel
+Feb 10 09:55:26 localhost.localdomain rpm-ostree[1622]: Process [pid: 1630 uid: 0 unit: session-2.scope] connected to transaction progress
+Feb 10 09:55:26 localhost.localdomain rpm-ostree[1622]: libostree pull from 'edge' for rhel/9/x86_64/edge complete
+                                                        security: GPG: disabled 
+                                                        security: SIGN: disabled http: TLS
+                                                        non-delta: meta: 1 content: 0
+                                                        transfer: secs: 0 size: 196 bytes
+Feb 10 09:55:26 localhost.localdomain rpm-ostree[1622]: 1 metadata, 0 content objects fetched; 196 B transferred in 0 seconds; 0 bytes content written
+Feb 10 09:55:26 localhost.localdomain rpm-ostree[1622]: Txn AutomaticUpdateTrigger on /org/projectatomic/rpmostree1/rhel successful
+Feb 10 09:55:26 localhost.localdomain rpm-ostree[1622]: Unlocked sysroot
+Feb 10 09:55:26 localhost.localdomain rpm-ostree[1622]: Process [pid: 1630 uid: 0 unit: session-2.scope] disconnected from transaction progress
+Feb 10 09:55:26 localhost.localdomain rpm-ostree[1622]: client(id:cli dbus:1.61 unit:session-2.scope uid:0) vanished; remaining=0
+Feb 10 09:55:26 localhost.localdomain rpm-ostree[1622]: In idle state; will auto-exit in 61 seconds
+Feb 10 09:56:27 localhost.localdomain systemd[1]: rpm-ostreed.service: Deactivated successfully.
+Feb 10 09:56:33 localhost.localdomain systemd[1]: Starting rpm-ostree System Management Daemon...
+Feb 10 09:56:33 localhost.localdomain rpm-ostree[1649]: Reading config file '/etc/rpm-ostreed.conf'
+Feb 10 09:56:33 localhost.localdomain systemd[1]: Started rpm-ostree System Management Daemon.
+Feb 10 09:56:33 localhost.localdomain rpm-ostree[1649]: In idle state; will auto-exit in 62 seconds
+Feb 10 09:56:33 localhost.localdomain rpm-ostree[1649]: client(id:cli dbus:1.64 unit:session-2.scope uid:0) added; new total=1
+Feb 10 09:56:33 localhost.localdomain rpm-ostree[1649]: Locked sysroot
+Feb 10 09:56:33 localhost.localdomain rpm-ostree[1649]: Initiated txn AutomaticUpdateTrigger for client(id:cli dbus:1.64 unit:session-2.scope uid:0): /org/projectatomic/rpmostree1/rhel
+Feb 10 09:56:33 localhost.localdomain rpm-ostree[1649]: Process [pid: 1645 uid: 0 unit: session-2.scope] connected to transaction progress
+Feb 10 09:56:33 localhost.localdomain rpm-ostree[1649]: libostree pull from 'edge' for rhel/9/x86_64/edge complete
+                                                        security: GPG: disabled 
+                                                        security: SIGN: disabled http: TLS
+                                                        non-delta: meta: 1 content: 0
+                                                        transfer: secs: 0 size: 196 bytes
+Feb 10 09:56:33 localhost.localdomain rpm-ostree[1649]: 1 metadata, 0 content objects fetched; 196 B transferred in 0 seconds; 0 bytes content written
+Feb 10 09:56:33 localhost.localdomain rpm-ostree[1649]: Txn AutomaticUpdateTrigger on /org/projectatomic/rpmostree1/rhel successful
+Feb 10 09:56:33 localhost.localdomain rpm-ostree[1649]: Unlocked sysroot
+Feb 10 09:56:33 localhost.localdomain rpm-ostree[1649]: Process [pid: 1645 uid: 0 unit: session-2.scope] disconnected from transaction progress
+Feb 10 09:56:33 localhost.localdomain rpm-ostree[1649]: client(id:cli dbus:1.64 unit:session-2.scope uid:0) vanished; remaining=0
+Feb 10 09:56:33 localhost.localdomain rpm-ostree[1649]: In idle state; will auto-exit in 60 seconds
+Feb 10 09:56:39 localhost.localdomain rpm-ostree[1649]: client(id:cli dbus:1.65 unit:session-2.scope uid:0) added; new total=1
+Feb 10 09:56:39 localhost.localdomain rpm-ostree[1649]: Locked sysroot
+Feb 10 09:56:39 localhost.localdomain rpm-ostree[1649]: Initiated txn AutomaticUpdateTrigger for client(id:cli dbus:1.65 unit:session-2.scope uid:0): /org/projectatomic/rpmostree1/rhel
+Feb 10 09:56:39 localhost.localdomain rpm-ostree[1649]: Process [pid: 1657 uid: 0 unit: session-2.scope] connected to transaction progress
+Feb 10 09:56:39 localhost.localdomain rpm-ostree[1649]: libostree pull from 'edge' for rhel/9/x86_64/edge complete
+                                                        security: GPG: disabled 
+                                                        security: SIGN: disabled http: TLS
+                                                        non-delta: meta: 1 content: 0
+                                                        transfer: secs: 0 size: 196 bytes
+Feb 10 09:56:39 localhost.localdomain rpm-ostree[1649]: 1 metadata, 0 content objects fetched; 196 B transferred in 0 seconds; 0 bytes content written
+Feb 10 09:56:39 localhost.localdomain rpm-ostree[1649]: Txn AutomaticUpdateTrigger on /org/projectatomic/rpmostree1/rhel successful
+Feb 10 09:56:39 localhost.localdomain rpm-ostree[1649]: Unlocked sysroot
+Feb 10 09:56:39 localhost.localdomain rpm-ostree[1649]: Process [pid: 1657 uid: 0 unit: session-2.scope] disconnected from transaction progress
+Feb 10 09:56:39 localhost.localdomain rpm-ostree[1649]: client(id:cli dbus:1.65 unit:session-2.scope uid:0) vanished; remaining=0
+Feb 10 09:56:39 localhost.localdomain rpm-ostree[1649]: In idle state; will auto-exit in 63 seconds
+Feb 10 09:57:42 localhost.localdomain systemd[1]: rpm-ostreed.service: Deactivated successfully.
+Feb 10 10:02:51 localhost.localdomain systemd[1]: Starting rpm-ostree System Management Daemon...
+Feb 10 10:02:51 localhost.localdomain rpm-ostree[1761]: Reading config file '/etc/rpm-ostreed.conf'
+Feb 10 10:02:51 localhost.localdomain systemd[1]: Started rpm-ostree System Management Daemon.
+Feb 10 10:02:51 localhost.localdomain rpm-ostree[1761]: In idle state; will auto-exit in 64 seconds
+Feb 10 10:02:51 localhost.localdomain rpm-ostree[1761]: client(id:cli dbus:1.77 unit:session-2.scope uid:0) added; new total=1
+Feb 10 10:02:51 localhost.localdomain rpm-ostree[1761]: client(id:cli dbus:1.77 unit:session-2.scope uid:0) vanished; remaining=0
+Feb 10 10:02:51 localhost.localdomain rpm-ostree[1761]: In idle state; will auto-exit in 62 seconds
+Feb 10 10:02:55 localhost.localdomain rpm-ostree[1761]: client(id:cli dbus:1.78 unit:session-2.scope uid:0) added; new total=1
+Feb 10 10:02:55 localhost.localdomain rpm-ostree[1761]: Locked sysroot
+Feb 10 10:02:55 localhost.localdomain rpm-ostree[1761]: Initiated txn AutomaticUpdateTrigger for client(id:cli dbus:1.78 unit:session-2.scope uid:0): /org/projectatomic/rpmostree1/rhel
+Feb 10 10:02:55 localhost.localdomain rpm-ostree[1761]: Process [pid: 1768 uid: 0 unit: session-2.scope] connected to transaction progress
+Feb 10 10:02:55 localhost.localdomain rpm-ostree[1761]: libostree pull from 'edge' for rhel/9/x86_64/edge complete
+                                                        security: GPG: disabled 
+                                                        security: SIGN: disabled http: TLS
+                                                        non-delta: meta: 1 content: 0
+                                                        transfer: secs: 0 size: 196 bytes
+Feb 10 10:02:55 localhost.localdomain rpm-ostree[1761]: 1 metadata, 0 content objects fetched; 196 B transferred in 0 seconds; 0 bytes content written
+Feb 10 10:02:55 localhost.localdomain rpm-ostree[1761]: Txn AutomaticUpdateTrigger on /org/projectatomic/rpmostree1/rhel successful
+Feb 10 10:02:55 localhost.localdomain rpm-ostree[1761]: Unlocked sysroot
+Feb 10 10:02:55 localhost.localdomain rpm-ostree[1761]: Process [pid: 1768 uid: 0 unit: session-2.scope] disconnected from transaction progress
+Feb 10 10:02:55 localhost.localdomain rpm-ostree[1761]: client(id:cli dbus:1.78 unit:session-2.scope uid:0) vanished; remaining=0
+Feb 10 10:02:55 localhost.localdomain rpm-ostree[1761]: In idle state; will auto-exit in 63 seconds
+Feb 10 10:03:58 localhost.localdomain systemd[1]: rpm-ostreed.service: Deactivated successfully.
+Feb 10 10:08:18 localhost.localdomain systemd[1]: Starting rpm-ostree System Management Daemon...
+Feb 10 10:08:18 localhost.localdomain rpm-ostree[1825]: Reading config file '/etc/rpm-ostreed.conf'
+Feb 10 10:08:18 localhost.localdomain rpm-ostree[1825]: In idle state; will auto-exit in 62 seconds
+Feb 10 10:08:18 localhost.localdomain systemd[1]: Started rpm-ostree System Management Daemon.
+Feb 10 10:08:18 localhost.localdomain rpm-ostree[1825]: client(id:cli dbus:1.85 unit:session-2.scope uid:0) added; new total=1
+Feb 10 10:08:18 localhost.localdomain rpm-ostree[1825]: Locked sysroot
+Feb 10 10:08:18 localhost.localdomain rpm-ostree[1825]: Initiated txn AutomaticUpdateTrigger for client(id:cli dbus:1.85 unit:session-2.scope uid:0): /org/projectatomic/rpmostree1/rhel
+Feb 10 10:08:18 localhost.localdomain rpm-ostree[1825]: Process [pid: 1821 uid: 0 unit: session-2.scope] connected to transaction progress
+Feb 10 10:08:18 localhost.localdomain rpm-ostree[1825]: libostree pull from 'edge' for rhel/9/x86_64/edge complete
+                                                        security: GPG: disabled 
+                                                        security: SIGN: disabled http: TLS
+                                                        non-delta: meta: 2 content: 0
+                                                        transfer: secs: 0 size: 402 bytes
+Feb 10 10:08:18 localhost.localdomain rpm-ostree[1825]: 2 metadata, 0 content objects fetched; 402 B transferred in 0 seconds; 0 bytes content written
+Feb 10 10:08:19 localhost.localdomain systemd-coredump[1839]: [🡕] Process 1825 (rpm-ostree) of user 0 dumped core.
+Feb 10 10:08:19 localhost.localdomain systemd[1]: rpm-ostreed.service: Main process exited, code=killed, status=11/SEGV
+Feb 10 10:08:19 localhost.localdomain systemd[1]: rpm-ostreed.service: Failed with result 'signal'.
+Feb 10 10:08:21 localhost.localdomain systemd[1]: Starting rpm-ostree System Management Daemon...
+Feb 10 10:08:21 localhost.localdomain rpm-ostree[1850]: Reading config file '/etc/rpm-ostreed.conf'
+Feb 10 10:08:21 localhost.localdomain systemd[1]: Started rpm-ostree System Management Daemon.
+Feb 10 10:08:21 localhost.localdomain rpm-ostree[1850]: In idle state; will auto-exit in 63 seconds
+Feb 10 10:08:21 localhost.localdomain rpm-ostree[1850]: client(id:cli dbus:1.87 unit:session-2.scope uid:0) added; new total=1
+Feb 10 10:08:21 localhost.localdomain rpm-ostree[1850]: Locked sysroot
+Feb 10 10:08:21 localhost.localdomain rpm-ostree[1850]: Initiated txn Upgrade for client(id:cli dbus:1.87 unit:session-2.scope uid:0): /org/projectatomic/rpmostree1/rhel
+Feb 10 10:08:21 localhost.localdomain rpm-ostree[1850]: Process [pid: 1846 uid: 0 unit: session-2.scope] connected to transaction progress
+Feb 10 10:08:22 localhost.localdomain rpm-ostree[1850]: Scanning metadata: 1830
+Feb 10 10:08:25 localhost.localdomain rpm-ostree[1850]: libostree pull from 'edge' for rhel/9/x86_64/edge complete
+                                                        security: GPG: disabled 
+                                                        security: SIGN: disabled http: TLS
+                                                        non-delta: meta: 71 content: 1381
+                                                        transfer: secs: 3 size: 15.5 MB
+Feb 10 10:08:27 localhost.localdomain rpm-ostree[1850]: Created new deployment /ostree/deploy/rhel/deploy/16b1474d548420b06c8b5c66ad751b22b32dab56f387dd6086aeb45239374e58.0
+Feb 10 10:08:27 localhost.localdomain rpm-ostree[1850]: sanitycheck(/usr/bin/true) successful
+Feb 10 10:08:28 localhost.localdomain rpm-ostree[1850]: Txn Upgrade on /org/projectatomic/rpmostree1/rhel successful
+Feb 10 10:08:28 localhost.localdomain rpm-ostree[1850]: Unlocked sysroot
+Feb 10 10:08:28 localhost.localdomain rpm-ostree[1850]: Process [pid: 1846 uid: 0 unit: session-2.scope] disconnected from transaction progress
+Feb 10 10:08:29 localhost.localdomain rpm-ostree[1850]: client(id:cli dbus:1.87 unit:session-2.scope uid:0) vanished; remaining=0
+Feb 10 10:08:29 localhost.localdomain rpm-ostree[1850]: In idle state; will auto-exit in 60 seconds
+Feb 10 10:08:31 localhost.localdomain rpm-ostree[1850]: client(id:cli dbus:1.88 unit:session-2.scope uid:0) added; new total=1
+Feb 10 10:08:31 localhost.localdomain rpm-ostree[1850]: Locked sysroot
+Feb 10 10:08:31 localhost.localdomain rpm-ostree[1850]: Initiated txn AutomaticUpdateTrigger for client(id:cli dbus:1.88 unit:session-2.scope uid:0): /org/projectatomic/rpmostree1/rhel
+Feb 10 10:08:31 localhost.localdomain rpm-ostree[1850]: Process [pid: 1880 uid: 0 unit: session-2.scope] connected to transaction progress
+Feb 10 10:08:31 localhost.localdomain rpm-ostree[1850]: libostree pull from 'edge' for rhel/9/x86_64/edge complete
+                                                        security: GPG: disabled 
+                                                        security: SIGN: disabled http: TLS
+                                                        non-delta: meta: 1 content: 0
+                                                        transfer: secs: 0 size: 196 bytes
+Feb 10 10:08:31 localhost.localdomain rpm-ostree[1850]: 1 metadata, 0 content objects fetched; 196 B transferred in 0 seconds; 0 bytes content written
+Feb 10 10:08:31 localhost.localdomain rpm-ostree[1850]: Txn AutomaticUpdateTrigger on /org/projectatomic/rpmostree1/rhel successful
+Feb 10 10:08:31 localhost.localdomain rpm-ostree[1850]: Unlocked sysroot
+Feb 10 10:08:31 localhost.localdomain rpm-ostree[1850]: Process [pid: 1880 uid: 0 unit: session-2.scope] disconnected from transaction progress
+Feb 10 10:08:31 localhost.localdomain rpm-ostree[1850]: client(id:cli dbus:1.88 unit:session-2.scope uid:0) vanished; remaining=0
+Feb 10 10:08:31 localhost.localdomain rpm-ostree[1850]: In idle state; will auto-exit in 63 seconds
+Feb 10 10:08:36 localhost.localdomain rpm-ostree[1850]: client(id:cli dbus:1.89 unit:session-2.scope uid:0) added; new total=1
+Feb 10 10:08:36 localhost.localdomain rpm-ostree[1850]: client(id:cli dbus:1.89 unit:session-2.scope uid:0) vanished; remaining=0
+Feb 10 10:08:36 localhost.localdomain rpm-ostree[1850]: In idle state; will auto-exit in 62 seconds
+Feb 10 10:09:38 localhost.localdomain systemd[1]: rpm-ostreed.service: Deactivated successfully.
+Feb 10 10:09:38 localhost.localdomain systemd[1]: rpm-ostreed.service: Consumed 5.922s CPU time.
