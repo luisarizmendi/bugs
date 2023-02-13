@@ -26,12 +26,22 @@ If you run just `rpm-ostree upgrade` the system gets the upgrade and then you ca
 *If you "publish" the new image by just copying the new files into the repository (HTTP server) everything works ok*, but the collection does not just copy the files, it pull the commit using the `ostree` command, as you can see [in this ansible block](https://github.com/redhat-cop/infra.osbuild/blob/main/roles/builder/tasks/main.yml#L84), so im my scripts [I had to use the "just copy files" approach.](https://github.com/luisarizmendi/edge-demos/blob/main/common/playbooks/publish-image.yml)
  
 
-## Files
+## Files and info
 
 [journalctl -u rpm-ostreed.service -b](files/journalctl)
 
 [coredumpctl dump](files/coredumpctl) (no info)
 
+```
+[root@demo-upgrade ~]# rpm-ostree --version
+rpm-ostree:
+ Version: '2022.12'
+ Git: e2d435b4d54119fbe7dd0965269cfc4edd4e192c
+ Features:
+  - rust
+  - compose
+  - rhsm
+```
 
 ## How to reproduce using RHEL
 
